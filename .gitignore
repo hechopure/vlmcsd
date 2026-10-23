@@ -1,0 +1,9 @@
+# Backups
+*.bk
+*.bak
+*~
+*.old
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+services:
+  vlmcsd:
+#    build: .
+    image: hechopure/vlmcsd
+    container_name: vlmcsd
+    ports:
+      - '1688:1688/tcp'
+      - '1688:1688/udp'
+    restart: unless-stopped
